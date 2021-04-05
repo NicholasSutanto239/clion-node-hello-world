@@ -2,9 +2,25 @@
   "name": "clion-node-hello-world",
   "version": "0.0.0",
   "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
+  "description": "A simple node JS with express created from CLion and deployed in Heroku",
+  "engines": {
+    "node": "12.x"
   },
+  "main": ".bin/www",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicholasSutanto239/clion-node-hello-world.git"
+  },
+  "keywords": [
+    "nodejs",
+    "heroku"
+  ],
+  "author": "Nicholas Sutanto",
+  "license": "MIT",
   "dependencies": {
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
